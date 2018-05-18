@@ -197,11 +197,6 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-    // Checks if the inputted email contains a "@" symbol
-    private boolean isEmailValid(String email) {
-        return email.contains("@");
-    }
-
     // Checks to ensure that password is atleast 6 characters long
     private boolean isPasswordValid(String password) {
         // Password must be atleast 6 characters
