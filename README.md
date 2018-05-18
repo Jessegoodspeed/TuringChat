@@ -16,6 +16,8 @@ The different components are organized into folders:
 * iOS
   - Frontend code is located in `iOS/MimicMe/MimicMe`
 
+For a more detailed layout of this project's file structure, please refer to the included text file, *DirectoryTree.txt*.
+
 
 #### **Platforms and Languages**
 This application runs on two mobile platforms: iOS and Android. The languages used include Python, Java, and Swift. Python is a common language used to implement machine learning algorithms and models and includes many suitable libraries with documentation to support our conversational model. Java and Swift are the respective languages used to implement applications for the Android and iOS mobile environments.
