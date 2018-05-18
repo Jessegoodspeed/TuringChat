@@ -25,3 +25,7 @@ class Room(models.Model):
         messages as they are generated.
         """
         return "room-%s" % self.id
+
+#TODO parameratize bots
+class Bot(models.Model):
+    name = models.CharField(max_length=255)

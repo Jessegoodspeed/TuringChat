@@ -10,5 +10,6 @@ model = {
         "1": mod_1.pred,
     }
 
+
 def delay(length):
     time.sleep(length * .2)
