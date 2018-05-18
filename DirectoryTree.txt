@@ -73,23 +73,7 @@
 │   ├── gradlew
 │   ├── gradlew.bat
 │   └── settings.gradle
-├── ChatModel
-│   ├── README.md
-│   ├── Seq2Seq.py
-│   ├── Seq2SeqXTrain.npy
-│   ├── Seq2SeqYTrain.npy
-│   ├── Word2Vec.py
-│   ├── createDataset.py
-│   ├── models2
-│   │   ├── checkpoint
-│   │   ├── pretrained_seq2seq.ckpt-10000.data-00000-of-00001
-│   │   ├── pretrained_seq2seq.ckpt-10000.index
-│   │   └── pretrained_seq2seq.ckpt-10000.meta
-│   └── requirements.txt
-├── DirectoryTree.txt
-├── Proposal.md
-├── README.md
-├── backend
+├── Backend
 │   ├── backend
 │   │   ├── __init__.py
 │   │   ├── asgi.py
@@ -111,7 +95,6 @@
 │   │   │   └── __init__.py
 │   │   ├── model_0.py
 │   │   ├── model_1.py
-│   │   ├── model_test.py
 │   │   ├── models
 │   │   │   ├── 0
 │   │   │   │   ├── checkpoint
@@ -135,11 +118,6 @@
 │   │   └── js
 │   │       ├── jquery-1.12.2.min.js
 │   │       └── reconnecting-websocket.min.js
-│   ├── templates
-│   │   ├── base.html
-│   │   ├── index.html
-│   │   └── registration
-│   │       └── login.html
 │   └── user
 │       ├── __init__.py
 │       ├── admin.py
@@ -150,6 +128,23 @@
 │       ├── tests.py
 │       ├── urls.py
 │       └── views.py
+├── CapstoneReport_TuringChat.pdf
+├── ChatModel
+│   ├── README.md
+│   ├── Seq2Seq.py
+│   ├── Seq2SeqXTrain.npy
+│   ├── Seq2SeqYTrain.npy
+│   ├── Word2Vec.py
+│   ├── createDataset.py
+│   ├── models2
+│   │   ├── checkpoint
+│   │   ├── pretrained_seq2seq.ckpt-10000.data-00000-of-00001
+│   │   ├── pretrained_seq2seq.ckpt-10000.index
+│   │   └── pretrained_seq2seq.ckpt-10000.meta
+│   └── requirements.txt
+├── DirectoryTree.txt
+├── Proposal.md
+├── README.md
 ├── iOS
 │   └── MimicMe
 │       ├── MimicMe
@@ -324,4 +319,4 @@
 │                   └── Starscream.xcconfig
 └── slides.pdf
 
-82 directories, 242 files
+80 directories, 239 files
