@@ -36,3 +36,12 @@ __pycache__/
 
 ## Tensorflow 200 meg model
 pretrained_seq2seq.ckpt-400000.data-00000-of-00001
+
+## Private Data
+fbMessages.txt
+conversationData.txt
+conversationDictionary.npy
+wordList.txt
+.floyd*
+GoogleTextForm/
+tensorboard/
