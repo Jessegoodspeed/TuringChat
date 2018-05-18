@@ -1,0 +1,327 @@
+.
+├── Android
+│   ├── app
+│   │   ├── build.gradle
+│   │   ├── proguard-rules.pro
+│   │   └── src
+│   │       └── main
+│   │           ├── AndroidManifest.xml
+│   │           ├── java
+│   │           │   └── com
+│   │           │       └── example
+│   │           │           └── naveedshah
+│   │           │               └── mimicme3
+│   │           │                   ├── ChatArrayAdapter.java
+│   │           │                   ├── ChatMessage.java
+│   │           │                   ├── ChatRoomActivity.java
+│   │           │                   ├── ChatRoomContent.java
+│   │           │                   ├── ItemFragment.java
+│   │           │                   ├── LoginActivity.java
+│   │           │                   ├── MyItemRecyclerViewAdapter.java
+│   │           │                   ├── RecyclerActivity.java
+│   │           │                   └── SignUpActivity.java
+│   │           └── res
+│   │               ├── drawable
+│   │               │   ├── bubble_a.png
+│   │               │   ├── bubble_b.png
+│   │               │   ├── circle.xml
+│   │               │   ├── ic_launcher_background.xml
+│   │               │   ├── ic_send_black_24dp.xml
+│   │               │   ├── l.png
+│   │               │   ├── mkdocs.png
+│   │               │   └── my_message.xml
+│   │               ├── drawable-v24
+│   │               │   └── ic_launcher_foreground.xml
+│   │               ├── layout
+│   │               │   ├── activity_login.xml
+│   │               │   ├── chat.xml
+│   │               │   ├── chat_room_activity.xml
+│   │               │   ├── fragment_item.xml
+│   │               │   ├── fragment_item_list.xml
+│   │               │   ├── my_message.xml
+│   │               │   ├── recycler_view.xml
+│   │               │   └── sign_up_activity.xml
+│   │               ├── mipmap-anydpi-v26
+│   │               │   ├── ic_launcher.xml
+│   │               │   └── ic_launcher_round.xml
+│   │               ├── mipmap-hdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-mdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-xhdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-xxhdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-xxxhdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               └── values
+│   │                   ├── colors.xml
+│   │                   ├── dimens.xml
+│   │                   ├── strings.xml
+│   │                   └── styles.xml
+│   ├── build.gradle
+│   ├── gradle
+│   │   └── wrapper
+│   │       ├── gradle-wrapper.jar
+│   │       └── gradle-wrapper.properties
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   └── settings.gradle
+├── ChatModel
+│   ├── README.md
+│   ├── Seq2Seq.py
+│   ├── Seq2SeqXTrain.npy
+│   ├── Seq2SeqYTrain.npy
+│   ├── Word2Vec.py
+│   ├── createDataset.py
+│   ├── models2
+│   │   ├── checkpoint
+│   │   ├── pretrained_seq2seq.ckpt-10000.data-00000-of-00001
+│   │   ├── pretrained_seq2seq.ckpt-10000.index
+│   │   └── pretrained_seq2seq.ckpt-10000.meta
+│   └── requirements.txt
+├── DirectoryTree.txt
+├── Proposal.md
+├── README.md
+├── backend
+│   ├── backend
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── routing.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── chat
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── consumers.py
+│   │   ├── data
+│   │   │   ├── wordList_0.txt
+│   │   │   └── wordList_1.txt
+│   │   ├── migrations
+│   │   │   ├── 0001_initial.py
+│   │   │   ├── 0002_room_bots.py
+│   │   │   └── __init__.py
+│   │   ├── model_0.py
+│   │   ├── model_1.py
+│   │   ├── model_test.py
+│   │   ├── models
+│   │   │   ├── 0
+│   │   │   │   ├── checkpoint
+│   │   │   │   ├── pretrained_seq2seq.ckpt-400000.index
+│   │   │   │   └── pretrained_seq2seq.ckpt-400000.meta
+│   │   │   └── 1
+│   │   │       ├── checkpoint
+│   │   │       ├── pretrained_seq2seq.ckpt-10000.data-00000-of-00001
+│   │   │       ├── pretrained_seq2seq.ckpt-10000.index
+│   │   │       └── pretrained_seq2seq.ckpt-10000.meta
+│   │   ├── models.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   ├── utils.py
+│   │   └── views.py
+│   ├── db.sqlite3
+│   ├── manage.py
+│   ├── static
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── js
+│   │       ├── jquery-1.12.2.min.js
+│   │       └── reconnecting-websocket.min.js
+│   ├── templates
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   └── registration
+│   │       └── login.html
+│   └── user
+│       ├── __init__.py
+│       ├── admin.py
+│       ├── apps.py
+│       ├── migrations
+│       │   └── __init__.py
+│       ├── models.py
+│       ├── tests.py
+│       ├── urls.py
+│       └── views.py
+├── iOS
+│   └── MimicMe
+│       ├── MimicMe
+│       │   ├── AppDelegate.swift
+│       │   ├── Assets.xcassets
+│       │   │   ├── AppIcon.appiconset
+│       │   │   │   └── Contents.json
+│       │   │   ├── Contents.json
+│       │   │   ├── email2.imageset
+│       │   │   │   ├── Contents.json
+│       │   │   │   └── email2.png
+│       │   │   ├── l.imageset
+│       │   │   │   ├── Contents.json
+│       │   │   │   └── l.png
+│       │   │   ├── logo.imageset
+│       │   │   │   ├── Contents.json
+│       │   │   │   └── logo.png
+│       │   │   ├── name.imageset
+│       │   │   │   ├── Contents.json
+│       │   │   │   └── name.png
+│       │   │   ├── pass2.imageset
+│       │   │   │   ├── Contents.json
+│       │   │   │   └── pass2.png
+│       │   │   └── testerLogo.imageset
+│       │   │       ├── Contents.json
+│       │   │       └── testerLogo.png
+│       │   ├── Base.lproj
+│       │   │   ├── LaunchScreen.storyboard
+│       │   │   └── Main.storyboard
+│       │   ├── ChatMessage+CoreDataClass.swift
+│       │   ├── ChatMessage+CoreDataProperties.swift
+│       │   ├── CreateRoomHelper.swift
+│       │   ├── CreateRoomViewController.swift
+│       │   ├── Info.plist
+│       │   ├── LoginController.swift
+│       │   ├── LoginHelper.swift
+│       │   ├── MainViewController.swift
+│       │   ├── MainViewHelper.swift
+│       │   ├── MessageCell.swift
+│       │   ├── MimicMe.xcdatamodeld
+│       │   │   └── MimicMe.xcdatamodel
+│       │   │       └── contents
+│       │   ├── PersistenceService.swift
+│       │   ├── Room+CoreDataClass.swift
+│       │   ├── Room+CoreDataProperties.swift
+│       │   ├── RootHighjackController.swift
+│       │   ├── SignupController.swift
+│       │   ├── SignupHelper.swift
+│       │   ├── TalkToBotController.swift
+│       │   └── WebsocketHelper.swift
+│       ├── MimicMe.xcodeproj
+│       │   ├── project.pbxproj
+│       │   ├── project.xcworkspace
+│       │   │   ├── contents.xcworkspacedata
+│       │   │   └── xcshareddata
+│       │   │       └── IDEWorkspaceChecks.plist
+│       │   └── xcuserdata
+│       │       └── NUKE.xcuserdatad
+│       │           ├── xcdebugger
+│       │           │   └── Breakpoints_v2.xcbkptlist
+│       │           └── xcschemes
+│       │               ├── MimicMe.xcscheme
+│       │               └── xcschememanagement.plist
+│       ├── MimicMe.xcworkspace
+│       │   ├── contents.xcworkspacedata
+│       │   └── xcshareddata
+│       │       └── IDEWorkspaceChecks.plist
+│       ├── MimicMeTests
+│       │   ├── Info.plist
+│       │   └── MimicMeTests.swift
+│       ├── MimicMeUITests
+│       │   ├── Info.plist
+│       │   └── MimicMeUITests.swift
+│       ├── Podfile
+│       ├── Podfile.lock
+│       └── Pods
+│           ├── Manifest.lock
+│           ├── PKHUD
+│           │   ├── LICENSE
+│           │   ├── PKHUD
+│           │   │   ├── FrameView.swift
+│           │   │   ├── HUD.swift
+│           │   │   ├── Images.xcassets
+│           │   │   │   ├── Contents.json
+│           │   │   │   ├── checkmark.imageset
+│           │   │   │   │   ├── Contents.json
+│           │   │   │   │   └── checkmark.pdf
+│           │   │   │   ├── cross.imageset
+│           │   │   │   │   ├── Contents.json
+│           │   │   │   │   └── cross.pdf
+│           │   │   │   ├── progress_activity.imageset
+│           │   │   │   │   ├── Contents.json
+│           │   │   │   │   └── progress.pdf
+│           │   │   │   └── progress_circular.imageset
+│           │   │   │       ├── Contents.json
+│           │   │   │       └── progress_circular.pdf
+│           │   │   ├── PKHUD.h
+│           │   │   ├── PKHUD.swift
+│           │   │   ├── PKHUDAnimating.swift
+│           │   │   ├── PKHUDAnimation.swift
+│           │   │   ├── PKHUDAssets.swift
+│           │   │   ├── PKHUDErrorView.swift
+│           │   │   ├── PKHUDProgressView.swift
+│           │   │   ├── PKHUDRotatingImageView.swift
+│           │   │   ├── PKHUDSquareBaseView.swift
+│           │   │   ├── PKHUDSuccessView.swift
+│           │   │   ├── PKHUDSystemActivityIndicatorView.swift
+│           │   │   ├── PKHUDTextView.swift
+│           │   │   ├── PKHUDWideBaseView.swift
+│           │   │   ├── Window.swift
+│           │   │   └── WindowRootViewController.swift
+│           │   └── README.md
+│           ├── Pods.xcodeproj
+│           │   └── project.pbxproj
+│           ├── Starscream
+│           │   ├── LICENSE
+│           │   ├── README.md
+│           │   ├── Sources
+│           │   │   ├── Compression.swift
+│           │   │   ├── SSLSecurity.swift
+│           │   │   └── WebSocket.swift
+│           │   └── zlib
+│           │       ├── include.h
+│           │       └── module.modulemap
+│           └── Target\ Support\ Files
+│               ├── PKHUD
+│               │   ├── Info.plist
+│               │   ├── PKHUD-dummy.m
+│               │   ├── PKHUD-prefix.pch
+│               │   ├── PKHUD-umbrella.h
+│               │   ├── PKHUD.modulemap
+│               │   └── PKHUD.xcconfig
+│               ├── Pods-MimicMe
+│               │   ├── Info.plist
+│               │   ├── Pods-MimicMe-acknowledgements.markdown
+│               │   ├── Pods-MimicMe-acknowledgements.plist
+│               │   ├── Pods-MimicMe-dummy.m
+│               │   ├── Pods-MimicMe-frameworks.sh
+│               │   ├── Pods-MimicMe-resources.sh
+│               │   ├── Pods-MimicMe-umbrella.h
+│               │   ├── Pods-MimicMe.debug.xcconfig
+│               │   ├── Pods-MimicMe.modulemap
+│               │   └── Pods-MimicMe.release.xcconfig
+│               ├── Pods-MimicMeTests
+│               │   ├── Info.plist
+│               │   ├── Pods-MimicMeTests-acknowledgements.markdown
+│               │   ├── Pods-MimicMeTests-acknowledgements.plist
+│               │   ├── Pods-MimicMeTests-dummy.m
+│               │   ├── Pods-MimicMeTests-frameworks.sh
+│               │   ├── Pods-MimicMeTests-resources.sh
+│               │   ├── Pods-MimicMeTests-umbrella.h
+│               │   ├── Pods-MimicMeTests.debug.xcconfig
+│               │   ├── Pods-MimicMeTests.modulemap
+│               │   └── Pods-MimicMeTests.release.xcconfig
+│               ├── Pods-MimicMeUITests
+│               │   ├── Info.plist
+│               │   ├── Pods-MimicMeUITests-acknowledgements.markdown
+│               │   ├── Pods-MimicMeUITests-acknowledgements.plist
+│               │   ├── Pods-MimicMeUITests-dummy.m
+│               │   ├── Pods-MimicMeUITests-frameworks.sh
+│               │   ├── Pods-MimicMeUITests-resources.sh
+│               │   ├── Pods-MimicMeUITests-umbrella.h
+│               │   ├── Pods-MimicMeUITests.debug.xcconfig
+│               │   ├── Pods-MimicMeUITests.modulemap
+│               │   └── Pods-MimicMeUITests.release.xcconfig
+│               └── Starscream
+│                   ├── Info.plist
+│                   ├── Starscream-dummy.m
+│                   ├── Starscream-prefix.pch
+│                   ├── Starscream-umbrella.h
+│                   ├── Starscream.modulemap
+│                   └── Starscream.xcconfig
+└── slides.pdf
+
+82 directories, 242 files
