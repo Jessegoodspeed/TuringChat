@@ -16,7 +16,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 from channels.generic.websocket import AsyncJsonWebsocketConsumer
 
-#TODO Look into options
+
 
 # Consumer class is instantiated for every websocket connection
 # Consumers connect to other consumers through the group_add over the
