@@ -4,7 +4,7 @@
 [![Waffle.io - Issues in progress](https://badge.waffle.io/Jessegoodspeed/MimicMe.png?label=in%20progress&title=In%20Progress)](http://waffle.io/Jessegoodspeed/MimicMe)
 
 ###### 5/18/2018
-This project is the result of our Computer Science Capstone. We implemented a mobile messaging application that features multiple chatbots. While the chatbots were pre-trained using personal messaging data, the messaging interface was implemented with the use of websockets that connect the mobile frontend with a Django backend.
+This project is the result of our Computer Science Capstone. We implemented a mobile messaging application that features multiple chatbots. While the chatbots were pre-trained using personal messaging data, the messaging interface was implemented with the use of websockets that connect the mobile frontend with a Django backend. For a comprehensive report on the design, challenges, and achievements of this project, please review the enclosed [report](https://github.com/Jessegoodspeed/TuringChat/blob/master/CapstoneReport_TuringChat.pdf).
 
 
 The different components are organized into folders:
