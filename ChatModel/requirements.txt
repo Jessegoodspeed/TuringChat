@@ -21,7 +21,7 @@ html5lib==0.9999999
 idna==2.6
 Markdown==2.6.11
 marshmallow==2.15.0
-numpy==1.14.1
+numpy==1.22.0
 pandas==0.22.0
 pathlib2==2.3.0
 protobuf==3.5.1
