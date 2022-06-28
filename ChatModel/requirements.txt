@@ -1,6 +1,6 @@
 absl-py==0.1.10
 args==0.1.0
-arrow==0.12.1
+arrow==0.15.1
 astor==0.6.2
 Babel==2.5.3
 beautifulsoup4==4.6.0
